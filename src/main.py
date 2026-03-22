@@ -19,7 +19,16 @@ def calculate_bmi(weight_kg: float, height_m: float) -> float:
     return round(bmi, 2)
 
 
-
+def bmi_category(bmi: float) -> str:
+    """Return the WHO BMI category for a given BMI value."""
+    if bmi < 18.5:
+        return "Underweight"
+    elif bmi < 25.0:
+        return "Normal weight"
+    elif bmi < 30.0:
+        return "Overweight"
+    else:
+        return "Obese"
 
 
 if __name__ == "__main__":
