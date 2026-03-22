@@ -281,3 +281,4 @@ $RECYCLE.BIN/
 # Ignore specific logs and reports
 gitleaks_report.csv
 
+secrets.json
