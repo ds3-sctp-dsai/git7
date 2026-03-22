@@ -13,4 +13,4 @@ if __name__ == "__main__":
     weight = float(input("Enter your weight in pounds: "))
     height = float(input("Enter your height in metres: "))
     bmi = calculate_bmi(weight, height)
-    print(f"Your BMI is {bmi} — {bmi_category(bmi)}")
+    print(f"BMI (from pounds input): {bmi} — {bmi_category(bmi)}")
